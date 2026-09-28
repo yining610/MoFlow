@@ -18,7 +18,7 @@ MoFlow generates agentic workflows that trade off five objectives: accuracy, cos
 
 ## Results
 
-On six benchmarks (AIME 2026, MATH-Hard, MBPP, SWE-bench Lite, GPQA-Diamond, HotpotQA-Hard), MoFlow achieves the best average hypervolume against six workflow generators (AFlow, MaAS, FlowSteer, SkillFlow, ADAS, EvoMAS), improving on the strongest one by 10.9% (online) and 12.8% (offline). This holds even though every baseline is rerun for each of the eleven testing preferences, while MoFlow serves all of them from a single search that never saw them. Offline MoFlow, which values workflows with a pretrained GNN instead of executing them, needs only about 2% of the online search cost. Across four base models, MoFlow is the only method that stays in the top two.
+Across six benchmarks, MoFlow achieves the best average hypervolume against six workflow generators, even though each baseline is rerun for every testing preference while MoFlow serves all of them from a single search.
 
 <p align="center">
   <img src="assets/results_radar.png" width="92%" alt="Per-objective comparison of MoFlow and the baselines">
