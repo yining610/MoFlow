@@ -10,7 +10,7 @@ from ..logging_util import get_logger
 from ..objectives import ObjectiveSpec, default_spec
 from ..reward.evalset import TaskValidationSplit
 from ..reward.evaluator import EvalResult, Evaluator, consistency_from_draws
-from ..search.archive import Archive, ArchiveEntry
+from ..search.archive import Archive
 from ..search.checkpoint import Checkpointer
 from ..search.engine import Engine
 from ..serve.policy import PolicyNode, extract_policy

@@ -9,7 +9,7 @@ control-insertion, or terminate. Each edit:
 """
 
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 from . import operators as ops
 from .graph import OperatorNode, WorkflowGraph

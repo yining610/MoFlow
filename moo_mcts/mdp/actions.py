@@ -1,4 +1,4 @@
-from ..workflow.edits import AtomicEdit, Terminate, is_legal
+from ..workflow.edits import AtomicEdit, is_legal
 from .state import State
 
 

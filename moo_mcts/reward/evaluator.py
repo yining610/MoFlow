@@ -11,7 +11,7 @@ from ..objectives import ObjectiveSpec
 from ..workflow.graph import WorkflowGraph
 from ..workflow.interpret_yaml import run_graph
 from ..serve.execute import sample_terminal
-from .evalset import EvalItem, EvalSetProvider
+from .evalset import EvalSetProvider
 
 log = get_logger("evaluator")
 
