@@ -1,0 +1,15 @@
+{
+  "dataset": "swe",
+  "source_path": "data/swe_lite_paraphrase",
+  "source_fingerprint": "ad1ba26d9b5fee1f",
+  "seed": 0,
+  "total": 100,
+  "val_size": 20,
+  "test_size": 50,
+  "unused": 30,
+  "problem_col": "problem_statement",
+  "answer_col": "swe_meta",
+  "index_col": "instance_id",
+  "paraphrase_col": "paraphrases",
+  "created_utc": "2026-07-18T15:21:59+00:00"
+}

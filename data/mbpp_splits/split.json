@@ -1,0 +1,15 @@
+{
+  "dataset": "mbpp",
+  "source_path": "data/mbpp_paraphrase",
+  "source_fingerprint": "a35a2549c82e0b6f",
+  "seed": 0,
+  "total": 427,
+  "val_size": 20,
+  "test_size": 50,
+  "unused": 357,
+  "problem_col": "prompt",
+  "answer_col": "grading",
+  "index_col": "task_id",
+  "paraphrase_col": "paraphrases",
+  "created_utc": "2026-07-03T18:34:53+00:00"
+}

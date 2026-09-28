@@ -1,0 +1,13 @@
+numpy>=1.26
+pyyaml>=6.0
+tqdm>=4.60
+openai>=1.0
+backoff>=2.0
+datasets>=4.0                  # the shipped paraphrase datasets use the List feature type (datasets 4.0+)
+sympy>=1.12,<1.15              # its LaTeX parser must match the ANTLR runtime pinned below
+antlr4-python3-runtime==4.11   # LaTeX answer parsing for MATH (sympy.parsing.latex)
+requests>=2.28                 # SWE-bench grading client
+wandb>=0.16                    # always imported; logs only with --wandb / WANDB=1
+torch>=2.4                     # older wheels are built against NumPy 1.x and break under NumPy 2
+sentence-transformers>=3.0     # 2.2.x fails to import with current huggingface_hub
+matplotlib>=3.7

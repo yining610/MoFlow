@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test / coverage / type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+.claude/
+
+# Run outputs (search trees, checkpoints, GNN bundles, served policies) and logs
+results/
+runs/
+artifacts/
+wandb/
+*.pt
+*.pth
+*.log
+*.err
+*.out
+
+# Hugging Face datasets cache files (the data-*.arrow shards in data/ are tracked)
+cache-*.arrow
+
+# SWE-bench server endpoint (published at runtime by scripts/swe/start_swe_server.sh)
+scripts/swe/.swe_endpoint

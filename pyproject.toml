@@ -1,0 +1,36 @@
+[project]
+name = "moflow"
+version = "0.1.0"
+description = "MoFlow: Multi-Objective Agentic Workflow Generation"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pyyaml>=6.0",
+    "tqdm>=4.60",
+    # OpenAI-compatible backend (backends/openai_compatible.py)
+    "openai>=1.0",
+    "backoff>=2.0",
+    # benchmark loading and grading (tasks/); antlr4 enables sympy's LaTeX parser for MATH
+    "datasets>=4.0",
+    "sympy>=1.12,<1.15",
+    "antlr4-python3-runtime==4.11",
+    "requests>=2.28",
+    # Weights & Biases: always imported, logs only with --wandb
+    "wandb>=0.16",
+]
+
+[project.optional-dependencies]
+# GNN value model f_theta (valuation/gnn_predictor.py) and its role-text encoder
+# (valuation/role_encoder.py). Without it only --predictor heuristic is available.
+gnn = ["torch>=2.4", "sentence-transformers>=3.0", "matplotlib>=3.7"]
+# SWE-bench grading server (tasks/swe_server/); needs Docker or Podman on the host.
+# swebench 5.x removed the harness APIs/flags the server uses (test_spec, --cache_level).
+swe-server = ["swebench>=4.1,<5", "flask", "docker"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["moo_mcts*", "tasks*"]

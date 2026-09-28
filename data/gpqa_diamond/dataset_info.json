@@ -1,0 +1,36 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "gpqa-diamond",
+  "dataset_size": 125425,
+  "description": "",
+  "download_size": 71765,
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 197190,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 125425,
+      "num_examples": 198,
+      "dataset_name": "gpqa-diamond"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

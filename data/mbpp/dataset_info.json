@@ -1,0 +1,46 @@
+{
+  "builder_name": "parquet",
+  "citation": "@article{austin2021program,\n  title={Program Synthesis with Large Language Models},\n  author={Austin, Jacob and Odena, Augustus and Nye, Maxwell and Bosma, Maarten and Michalewski, Henryk and Dohan, David and Jiang, Ellen and Cai, Carrie and Terry, Michael and Le, Quoc and others},\n  journal={arXiv preprint arXiv:2108.07732},\n  year={2021}\n}",
+  "config_name": "sanitized",
+  "dataset_name": "mbpp",
+  "dataset_size": 219684,
+  "description": "The MBPP (Mostly Basic Python Problems) dataset consists of around 1,000 crowd-sourced Python\nprogramming problems, designed to be solvable by entry level programmers, covering programming\nfundamentals, standard library functionality, and so on. Each problem consists of a task\ndescription, code solution and 3 automated test cases.\n",
+  "download_checksums": {
+    "hf://datasets/Muennighoff/mbpp@39ad389e423dd348012ea1b1bcbf224aad8f34a4/sanitized/test/0000.parquet": {
+      "num_bytes": 96637,
+      "checksum": null
+    }
+  },
+  "download_size": 96637,
+  "features": {
+    "task_id": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "grading": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://github.com/google-research/google-research/tree/master/mbpp",
+  "license": "CC-BY-4.0",
+  "size_in_bytes": 316321,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 219684,
+      "num_examples": 427,
+      "dataset_name": "mbpp"
+    }
+  },
+  "version": {
+    "version_str": "1.0.0",
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

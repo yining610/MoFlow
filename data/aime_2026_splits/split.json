@@ -1,0 +1,14 @@
+{
+  "dataset": "aime_2026",
+  "source_path": "data/aime_2026_paraphrase",
+  "source_fingerprint": "96df0c70cb7d3775",
+  "seed": 0,
+  "total": 30,
+  "val_size": 10,
+  "test_size": 20,
+  "problem_col": "problem",
+  "answer_col": "answer",
+  "index_col": "problem_idx",
+  "paraphrase_col": "paraphrases",
+  "created_utc": "2026-06-25T03:08:16+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "gpqa_diamond",
+  "source_path": "data/gpqa_diamond",
+  "source_fingerprint": "d5d86784f2939dbc",
+  "seed": 0,
+  "total": 198,
+  "val_size": 20,
+  "test_size": 50,
+  "unused": 128,
+  "problem_col": "question",
+  "answer_col": "answer",
+  "index_col": null,
+  "paraphrase_col": "paraphrases",
+  "created_utc": "2026-07-16T01:13:28+00:00",
+  "paraphrases_scope": "split-only"
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "hotpotqa",
+  "source_path": "data/hotpotqa",
+  "source_fingerprint": "5c4e90a2c725f503",
+  "seed": 0,
+  "total": 70,
+  "val_size": 20,
+  "test_size": 50,
+  "unused": 0,
+  "problem_col": "question",
+  "answer_col": "answer",
+  "index_col": "id",
+  "paraphrase_col": "paraphrases",
+  "created_utc": "2026-07-16T02:15:30+00:00",
+  "paraphrases_scope": "split-only,question-only"
+}

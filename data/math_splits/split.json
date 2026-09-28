@@ -1,0 +1,15 @@
+{
+  "dataset": "math",
+  "source_path": "data/math_paraphrase",
+  "source_fingerprint": "c707930cadd84536",
+  "seed": 0,
+  "total": 150,
+  "val_size": 20,
+  "test_size": 50,
+  "unused": 80,
+  "problem_col": "problem",
+  "answer_col": "solution",
+  "index_col": null,
+  "paraphrase_col": "paraphrases",
+  "created_utc": "2026-07-03T18:37:17+00:00"
+}
