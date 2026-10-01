@@ -11,9 +11,9 @@
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/yining610/MoFlow?style=social&v=20260926"/>
-  <img src="https://img.shields.io/github/forks/yining610/MoFlow?style=social&v=20260926"/>
-  <img src="https://img.shields.io/github/license/yining610/MoFlow?style=flat&v=20260926"/>
+  <img src="https://img.shields.io/github/stars/yining610/MoFlow?style=social&v=20261001"/>
+  <img src="https://img.shields.io/github/forks/yining610/MoFlow?style=social&v=20261001"/>
+  <img src="https://img.shields.io/github/license/yining610/MoFlow?style=flat&v=20261001"/>
 </p>
 
 MoFlow generates agentic workflows that trade off five objectives: accuracy, cost, latency, robustness, and consistency. It casts workflow generation as a multi-objective MDP and solves it with Convex-Hull Monte Carlo Tree Search, where every node stores the set of trade-offs reachable from it instead of a single score. One search therefore covers the Pareto front, and afterwards serves a workflow for any preference by lookup, with no retraining and no extra LLM calls.
